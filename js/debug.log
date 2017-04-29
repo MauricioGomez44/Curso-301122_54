@@ -1,0 +1,6 @@
+[0427/210800.930:ERROR:process_info.cc(343)] VirtualQueryEx: Acceso denegado. (0x5)
+[0427/210800.936:ERROR:process_info.cc(564)] ReadMemoryInfo failed
+[0427/210800.937:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffae9423970 of 12 bytes failed: Solo se completó una parte de una solicitud ReadProcessMemory o WriteProcessMemory. (0x12B)
+[0427/210801.013:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0427/210801.013:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0427/210801.013:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose.  (0xc000010a)
